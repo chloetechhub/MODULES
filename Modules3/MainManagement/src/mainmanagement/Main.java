@@ -14,6 +14,8 @@ public class Main {
         it.DisplayItemInfo();
         System.out.println();
 
-      
+        System.out.println("=== retrieving info ===");
+        System.out.println("Name " + us.getName());
+        System.out.println("brand " + it.getBrand());
     }
 }
