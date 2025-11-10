@@ -1,0 +1,3 @@
+module UserManagement {
+    exports usermanagement;
+}
