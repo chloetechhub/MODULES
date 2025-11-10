@@ -9,4 +9,16 @@ public class Item {
         this.cost = cost;
     }
 
+    public void DisplayItemInfo(){
+        System.out.println("brand " + brand);
+        System.out.println("cost " + cost);
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public double getCost() {
+        return cost;
+    }
 }
