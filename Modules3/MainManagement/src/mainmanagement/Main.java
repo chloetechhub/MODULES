@@ -6,5 +6,16 @@ public class Main {
         User us = new User("Singa",2);
         Item it = new Item("Bread",200);
 
-       
+        System.out.println("=== user info ===");
+        us.DisplayUserInfo();
+        System.out.println();
+
+        System.out.println("=== item info ===");
+        it.DisplayItemInfo();
+        System.out.println();
+
+        System.out.println("=== retrieving info ===");
+        System.out.println("Name " + us.getName());
+        System.out.println("brand " + it.getBrand());
+    }
 }
